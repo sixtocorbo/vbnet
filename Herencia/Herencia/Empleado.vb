@@ -3,8 +3,8 @@
     Public Sub New()
 
     End Sub
-    Public Sub New(ByVal nombre As String)
-        MyBase.Nombre = nombre
+    Public Sub New(ByVal _nombre As String)
+        MyBase.Nombre = _nombre
     End Sub
 
     Public Overrides Function MostrarMensaje() As String
