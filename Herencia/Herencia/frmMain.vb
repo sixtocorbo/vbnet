@@ -16,4 +16,10 @@
         obj.Nombre = "Maria Estevez"
         MsgBox(obj.MostrarMensaje)
     End Sub
+
+    Private Sub BtnAbogados_Click(sender As Object, e As EventArgs) Handles btnAbogados.Click
+        Dim obj As New Abogados
+        obj.Nombre = "Raul Martinez"
+        MsgBox(obj.MostrarMensaje)
+    End Sub
 End Class

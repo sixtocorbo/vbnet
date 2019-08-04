@@ -25,6 +25,7 @@ Partial Class frmMain
         Me.btnPersona = New System.Windows.Forms.Button()
         Me.btnEmpleado = New System.Windows.Forms.Button()
         Me.btnJefe = New System.Windows.Forms.Button()
+        Me.btnAbogados = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnPersona
@@ -54,11 +55,21 @@ Partial Class frmMain
         Me.btnJefe.Text = "Jefe"
         Me.btnJefe.UseVisualStyleBackColor = True
         '
+        'btnAbogados
+        '
+        Me.btnAbogados.Location = New System.Drawing.Point(37, 153)
+        Me.btnAbogados.Name = "btnAbogados"
+        Me.btnAbogados.Size = New System.Drawing.Size(157, 66)
+        Me.btnAbogados.TabIndex = 3
+        Me.btnAbogados.Text = "Abogados"
+        Me.btnAbogados.UseVisualStyleBackColor = True
+        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(644, 230)
+        Me.ClientSize = New System.Drawing.Size(644, 265)
+        Me.Controls.Add(Me.btnAbogados)
         Me.Controls.Add(Me.btnJefe)
         Me.Controls.Add(Me.btnEmpleado)
         Me.Controls.Add(Me.btnPersona)
@@ -72,4 +83,5 @@ Partial Class frmMain
     Friend WithEvents btnPersona As Button
     Friend WithEvents btnEmpleado As Button
     Friend WithEvents btnJefe As Button
+    Friend WithEvents btnAbogados As Button
 End Class
